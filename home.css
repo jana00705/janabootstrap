@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Monoton&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=B612&family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.ji {
+  font-family: "dosis";
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #2a7fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.bg {
+  background-image: linear-gradient(to right, rgb(255, 255, 255), #74b4f0);
+}
+
+.title {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: "dosis";
+
+  font-size: 70px;
+  background: -webkit-linear-gradient(rgb(255, 66, 66), #2093ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  padding-top: 20px;
+  text-align: center;
+}
+
+#myModal  ::placeholder {
+  text-align: center;
+  font-family: "dosis";
+}
+
+li a {
+  padding: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+
+.para {
+  margin-top: 25px;
+  line-height: 1.75;
+  font-family: "eczar";
+  font-size: 24px;
+  font-weight: 100px;
+  text-align: justify;
+  color: #05386b;
+}
+
+
+.active1 {
+  animation-name: login;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes login {
+  0% {
+    color: rgb(255, 148, 148);
+  }
+
+  25% {
+    color: #ccc;
+  }
+
+  50% {
+    color: hotpink;
+  }
+
+  75% {
+    color: rgb(83, 255, 246);
+  }
+
+  100% {
+    color: rgb(138, 150, 252);
+  }
+}
+
+.modal-header,
+.modal-header h4,
+.close {
+  background-color: #5cb85c;
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.u1 {
+  border-radius: 10px;
+  outline: none;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+.modal-footer {
+  background-color: #f3f3f3;
+}
+
+.d-block{
+  border-radius: 80px 80px 80px 80px;
+}
+
+.u1:focus {
+  background-color: rgb(202, 255, 205);
+  border-color: #4c6cd6;
+}
+
+span {
+  color: red;
+
+  font-size: small;
+
+  text-align: center;
+
+}
+
+.login {
+  font-family: "roboto";
+  font-size: 17px;
+  color: rgb(21, 64, 255);
+  text-align: center;
+}
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 3s ease;
+  transition: transform 3s ease;
+  transition: transform 3s ease, -webkit-transform 3s ease;
+}
+
+#login {
+  text-align: center;
+  color: rgb(49, 49, 49);
+  font-family: "B612";
+  text-decoration:underline;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px #6c7796;
+  margin-bottom: 100px;
+}
+
+#loginc {
+  text-align: center;
+  color: rgb(49, 49, 49);
+  font-family: "B612";
+  text-decoration:underline;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px #152246;
+  margin-bottom: 30px;
+}
+ 
+table span{
+  color: #152246;
+}
